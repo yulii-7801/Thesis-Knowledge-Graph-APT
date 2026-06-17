@@ -1,0 +1,54 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.10
+    framework: huggingface
+    huggingface_version: 4.26.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.10
+    start_time: 1682580707.423386
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 53
+      - 55
+      3:
+      - 23
+      - 24
+      - 37
+      4: 3.8.10
+      5: 0.13.10
+      6: 4.26.1
+      8:
+      - 5
+batch_size:
+  desc: null
+  value: 512
+dataset:
+  desc: null
+  value: type_aptnotes
+eval_after:
+  desc: null
+  value: 2000
+lr:
+  desc: null
+  value: 0.005
+num_iterations:
+  desc: null
+  value: 3000
+semantic_type:
+  desc: null
+  value: None

@@ -1,0 +1,91 @@
+2023-04-27 15:13:02 INFO Running runs: []
+2023-04-27 15:13:03 INFO Agent received command: run
+2023-04-27 15:13:03 INFO Agent starting run with config:
+	batch_size: 512
+	dataset: type_aptnotes
+	eval_after: 2000
+	num_iterations: 3000
+	semantic_type: None
+2023-04-27 15:13:03 INFO About to run command: /usr/bin/env python main_NoGE.py --batch_size=512 --dataset=type_aptnotes --eval_after=2000 --num_iterations=3000 --semantic_type=None
+2023-04-27 15:13:08 INFO Running runs: ['fpeii07u']
+2023-04-27 15:15:33 INFO Cleaning up finished run: fpeii07u
+2023-04-27 15:15:33 INFO Agent received command: run
+2023-04-27 15:15:33 INFO Agent starting run with config:
+	batch_size: 1024
+	dataset: type_aptnotes
+	eval_after: 2000
+	num_iterations: 3000
+	semantic_type: None
+2023-04-27 15:15:33 INFO About to run command: /usr/bin/env python main_NoGE.py --batch_size=1024 --dataset=type_aptnotes --eval_after=2000 --num_iterations=3000 --semantic_type=None
+2023-04-27 15:15:38 INFO Running runs: ['sgtjf5es']
+2023-04-27 15:17:20 INFO Cleaning up finished run: sgtjf5es
+2023-04-27 15:17:25 INFO Running runs: []
+2023-04-27 15:21:52 INFO Running runs: []
+2023-04-27 15:21:52 INFO Agent received command: run
+2023-04-27 15:21:52 INFO Agent starting run with config:
+	batch_size: 512
+	dataset: type_aptnotes
+	eval_after: 2000
+	lr: 0.0001
+	num_iterations: 3000
+	semantic_type: None
+2023-04-27 15:21:52 INFO About to run command: /usr/bin/env python main_NoGE.py --batch_size=512 --dataset=type_aptnotes --eval_after=2000 --lr=0.0001 --num_iterations=3000 --semantic_type=None
+2023-04-27 15:21:57 INFO Running runs: ['6xj4l8w7']
+2023-04-27 15:25:29 INFO Cleaning up finished run: 6xj4l8w7
+2023-04-27 15:25:42 INFO Agent received command: run
+2023-04-27 15:25:42 INFO Agent starting run with config:
+	batch_size: 512
+	dataset: type_aptnotes
+	eval_after: 2000
+	lr: 0.001
+	num_iterations: 3000
+	semantic_type: None
+2023-04-27 15:25:42 INFO About to run command: /usr/bin/env python main_NoGE.py --batch_size=512 --dataset=type_aptnotes --eval_after=2000 --lr=0.001 --num_iterations=3000 --semantic_type=None
+2023-04-27 15:25:47 INFO Running runs: ['kr1s5e6v']
+2023-04-27 15:29:22 INFO Cleaning up finished run: kr1s5e6v
+2023-04-27 15:29:23 INFO Agent received command: run
+2023-04-27 15:29:23 INFO Agent starting run with config:
+	batch_size: 512
+	dataset: type_aptnotes
+	eval_after: 2000
+	lr: 0.005
+	num_iterations: 3000
+	semantic_type: None
+2023-04-27 15:29:23 INFO About to run command: /usr/bin/env python main_NoGE.py --batch_size=512 --dataset=type_aptnotes --eval_after=2000 --lr=0.005 --num_iterations=3000 --semantic_type=None
+2023-04-27 15:29:28 INFO Running runs: ['fjjk4r5h']
+2023-04-27 15:33:02 INFO Cleaning up finished run: fjjk4r5h
+2023-04-27 15:33:03 INFO Agent received command: run
+2023-04-27 15:33:03 INFO Agent starting run with config:
+	batch_size: 1024
+	dataset: type_aptnotes
+	eval_after: 2000
+	lr: 0.0001
+	num_iterations: 3000
+	semantic_type: None
+2023-04-27 15:33:03 INFO About to run command: /usr/bin/env python main_NoGE.py --batch_size=1024 --dataset=type_aptnotes --eval_after=2000 --lr=0.0001 --num_iterations=3000 --semantic_type=None
+2023-04-27 15:33:08 INFO Running runs: ['3jnfi1t2']
+2023-04-27 15:35:45 INFO Cleaning up finished run: 3jnfi1t2
+2023-04-27 15:35:46 INFO Agent received command: run
+2023-04-27 15:35:46 INFO Agent starting run with config:
+	batch_size: 1024
+	dataset: type_aptnotes
+	eval_after: 2000
+	lr: 0.001
+	num_iterations: 3000
+	semantic_type: None
+2023-04-27 15:35:46 INFO About to run command: /usr/bin/env python main_NoGE.py --batch_size=1024 --dataset=type_aptnotes --eval_after=2000 --lr=0.001 --num_iterations=3000 --semantic_type=None
+2023-04-27 15:35:51 INFO Running runs: ['i3cpqyjg']
+2023-04-27 15:38:26 INFO Cleaning up finished run: i3cpqyjg
+2023-04-27 15:38:27 INFO Agent received command: run
+2023-04-27 15:38:27 INFO Agent starting run with config:
+	batch_size: 1024
+	dataset: type_aptnotes
+	eval_after: 2000
+	lr: 0.005
+	num_iterations: 3000
+	semantic_type: None
+2023-04-27 15:38:27 INFO About to run command: /usr/bin/env python main_NoGE.py --batch_size=1024 --dataset=type_aptnotes --eval_after=2000 --lr=0.005 --num_iterations=3000 --semantic_type=None
+2023-04-27 15:38:32 INFO Running runs: ['u2u79mt0']
+2023-04-27 15:41:12 INFO Cleaning up finished run: u2u79mt0
+2023-04-27 15:41:13 INFO Agent received command: exit
+2023-04-27 15:41:13 INFO Received exit command. Killing runs and quitting.

@@ -1,0 +1,14 @@
+wandb_version: 1
+
+batch_size:
+  value: 1024
+dataset:
+  value: type_aptnotes
+eval_after:
+  value: 2000
+lr:
+  value: 0.005
+num_iterations:
+  value: 3000
+semantic_type:
+  value: None

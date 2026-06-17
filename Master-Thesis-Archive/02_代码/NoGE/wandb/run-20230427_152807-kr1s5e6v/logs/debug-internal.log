@@ -1,0 +1,279 @@
+2023-04-27 15:28:07,419 INFO    StreamThr :1245 [internal.py:wandb_internal():87] W&B internal server running at pid: 1245, started at: 2023-04-27 15:28:07.418781
+2023-04-27 15:28:07,422 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: status
+2023-04-27 15:28:07,425 INFO    WriterThread:1245 [datastore.py:open_for_write():85] open: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/run-kr1s5e6v.wandb
+2023-04-27 15:28:07,428 DEBUG   SenderThread:1245 [sender.py:send():336] send: header
+2023-04-27 15:28:07,428 DEBUG   SenderThread:1245 [sender.py:send():336] send: run
+2023-04-27 15:28:08,256 INFO    SenderThread:1245 [dir_watcher.py:__init__():216] watching files in: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files
+2023-04-27 15:28:08,257 INFO    SenderThread:1245 [sender.py:_start_run_threads():1067] run started: kr1s5e6v with start time 1682580487.41701
+2023-04-27 15:28:08,257 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: summary_record
+2023-04-27 15:28:08,257 INFO    SenderThread:1245 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-27 15:28:08,267 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: check_version
+2023-04-27 15:28:08,268 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: check_version
+2023-04-27 15:28:09,261 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_created():275] file/dir created: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-summary.json
+2023-04-27 15:28:09,476 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: run_start
+2023-04-27 15:28:09,491 DEBUG   HandlerThread:1245 [system_info.py:__init__():31] System info init
+2023-04-27 15:28:09,491 DEBUG   HandlerThread:1245 [system_info.py:__init__():46] System info init done
+2023-04-27 15:28:09,491 INFO    HandlerThread:1245 [system_monitor.py:start():151] Starting system monitor
+2023-04-27 15:28:09,492 INFO    SystemMonitor:1245 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-04-27 15:28:09,492 INFO    HandlerThread:1245 [system_monitor.py:probe():172] Collecting system info
+2023-04-27 15:28:09,493 INFO    SystemMonitor:1245 [interfaces.py:start():168] Started cpu
+2023-04-27 15:28:09,493 INFO    SystemMonitor:1245 [interfaces.py:start():168] Started disk
+2023-04-27 15:28:09,495 INFO    SystemMonitor:1245 [interfaces.py:start():168] Started gpu
+2023-04-27 15:28:09,496 INFO    SystemMonitor:1245 [interfaces.py:start():168] Started memory
+2023-04-27 15:28:09,500 INFO    SystemMonitor:1245 [interfaces.py:start():168] Started network
+2023-04-27 15:28:09,545 DEBUG   HandlerThread:1245 [system_info.py:probe():195] Probing system
+2023-04-27 15:28:09,555 DEBUG   HandlerThread:1245 [git.py:repo():40] git repository is invalid
+2023-04-27 15:28:09,555 DEBUG   HandlerThread:1245 [system_info.py:probe():241] Probing system done
+2023-04-27 15:28:09,555 DEBUG   HandlerThread:1245 [system_monitor.py:probe():181] {'os': 'Linux-5.4.0-100-generic-x86_64-with-glibc2.17', 'python': '3.8.10', 'heartbeatAt': '2023-04-27T07:28:09.545853', 'startedAt': '2023-04-27T07:28:07.397115', 'docker': None, 'cuda': None, 'args': ('--batch_size=512', '--dataset=type_aptnotes', '--eval_after=2000', '--lr=0.001', '--num_iterations=3000', '--semantic_type=None'), 'state': 'running', 'program': 'main_NoGE.py', 'codePath': 'main_NoGE.py', 'host': 'autodl-container-89b11193b0-5b2ccebc', 'username': 'root', 'executable': '/root/miniconda3/bin/python', 'cpu_count': 56, 'cpu_count_logical': 112, 'cpu_freq': {'current': 1536.0937321428573, 'min': 800.0, 'max': 3100.0}, 'cpu_freq_per_core': [{'current': 2600.41, 'min': 800.0, 'max': 3100.0}, {'current': 929.22, 'min': 800.0, 'max': 3100.0}, {'current': 800.0, 'min': 800.0, 'max': 3100.0}, {'current': 821.387, 'min': 800.0, 'max': 3100.0}, {'current': 823.314, 'min': 800.0, 'max': 3100.0}, {'current': 838.818, 'min': 800.0, 'max': 3100.0}, {'current': 801.129, 'min': 800.0, 'max': 3100.0}, {'current': 1999.966, 'min': 800.0, 'max': 3100.0}, {'current': 2602.143, 'min': 800.0, 'max': 3100.0}, {'current': 800.419, 'min': 800.0, 'max': 3100.0}, {'current': 804.289, 'min': 800.0, 'max': 3100.0}, {'current': 2600.0, 'min': 800.0, 'max': 3100.0}, {'current': 861.89, 'min': 800.0, 'max': 3100.0}, {'current': 800.0, 'min': 800.0, 'max': 3100.0}, {'current': 804.451, 'min': 800.0, 'max': 3100.0}, {'current': 874.95, 'min': 800.0, 'max': 3100.0}, {'current': 800.378, 'min': 800.0, 'max': 3100.0}, {'current': 799.978, 'min': 800.0, 'max': 3100.0}, {'current': 994.896, 'min': 800.0, 'max': 3100.0}, {'current': 940.675, 'min': 800.0, 'max': 3100.0}, {'current': 800.0, 'min': 800.0, 'max': 3100.0}, {'current': 1421.259, 'min': 800.0, 'max': 3100.0}, {'current': 800.0, 'min': 800.0, 'max': 3100.0}, {'current': 800.0, 'min': 800.0, 'max': 3100.0}, {'current': 2000.0, 'min': 800.0, 'max': 3100.0}, {'current': 799.977, 'min': 800.0, 'max': 3100.0}, {'current': 2600.0, 'min': 800.0, 'max': 3100.0}, {'current': 922.243, 'min': 800.0, 'max': 3100.0}, {'current': 819.25, 'min': 800.0, 'max': 3100.0}, {'current': 2600.0, 'min': 800.0, 'max': 3100.0}, {'current': 2599.998, 'min': 800.0, 'max': 3100.0}, {'current': 2000.0, 'min': 800.0, 'max': 3100.0}, {'current': 2521.716, 'min': 800.0, 'max': 3100.0}, {'current': 934.85, 'min': 800.0, 'max': 3100.0}, {'current': 1307.171, 'min': 800.0, 'max': 3100.0}, {'current': 874.313, 'min': 800.0, 'max': 3100.0}, {'current': 1374.683, 'min': 800.0, 'max': 3100.0}, {'current': 800.0, 'min': 800.0, 'max': 3100.0}, {'current': 2600.002, 'min': 800.0, 'max': 3100.0}, {'current': 1196.289, 'min': 800.0, 'max': 3100.0}, {'current': 2000.0, 'min': 800.0, 'max': 3100.0}, {'current': 1100.0, 'min': 800.0, 'max': 3100.0}, {'current': 1051.718, 'min': 800.0, 'max': 3100.0}, {'current': 1203.1, 'min': 800.0, 'max': 3100.0}, {'current': 2600.002, 'min': 800.0, 'max': 3100.0}, {'current': 1200.0, 'min': 800.0, 'max': 3100.0}, {'current': 2000.0, 'min': 800.0, 'max': 3100.0}, {'current': 2599.997, 'min': 800.0, 'max': 3100.0}, {'current': 1440.332, 'min': 800.0, 'max': 3100.0}, {'current': 2000.0, 'min': 800.0, 'max': 3100.0}, {'current': 1059.169, 'min': 800.0, 'max': 3100.0}, {'current': 803.745, 'min': 800.0, 'max': 3100.0}, {'current': 800.0, 'min': 800.0, 'max': 3100.0}, {'current': 801.471, 'min': 800.0, 'max': 3100.0}, {'current': 2600.0, 'min': 800.0, 'max': 3100.0}, {'current': 2600.0, 'min': 800.0, 'max': 3100.0}, {'current': 2600.111, 'min': 800.0, 'max': 3100.0}, {'current': 810.305, 'min': 800.0, 'max': 3100.0}, {'current': 799.933, 'min': 800.0, 'max': 3100.0}, {'current': 821.321, 'min': 800.0, 'max': 3100.0}, {'current': 799.851, 'min': 800.0, 'max': 3100.0}, {'current': 866.519, 'min': 800.0, 'max': 3100.0}, {'current': 799.961, 'min': 800.0, 'max': 3100.0}, {'current': 2000.0, 'min': 800.0, 'max': 3100.0}, {'current': 2596.578, 'min': 800.0, 'max': 3100.0}, {'current': 801.33, 'min': 800.0, 'max': 3100.0}, {'current': 800.0, 'min': 800.0, 'max': 3100.0}, {'current': 2603.529, 'min': 800.0, 'max': 3100.0}, {'current': 997.216, 'min': 800.0, 'max': 3100.0}, {'current': 802.995, 'min': 800.0, 'max': 3100.0}, {'current': 849.66, 'min': 800.0, 'max': 3100.0}, {'current': 830.647, 'min': 800.0, 'max': 3100.0}, {'current': 800.0, 'min': 800.0, 'max': 3100.0}, {'current': 800.0, 'min': 800.0, 'max': 3100.0}, {'current': 1000.0, 'min': 800.0, 'max': 3100.0}, {'current': 1011.961, 'min': 800.0, 'max': 3100.0}, {'current': 799.975, 'min': 800.0, 'max': 3100.0}, {'current': 1386.782, 'min': 800.0, 'max': 3100.0}, {'current': 799.811, 'min': 800.0, 'max': 3100.0}, {'current': 800.0, 'min': 800.0, 'max': 3100.0}, {'current': 2000.0, 'min': 800.0, 'max': 3100.0}, {'current': 800.0, 'min': 800.0, 'max': 3100.0}, {'current': 2603.365, 'min': 800.0, 'max': 3100.0}, {'current': 861.337, 'min': 800.0, 'max': 3100.0}, {'current': 993.205, 'min': 800.0, 'max': 3100.0}, {'current': 2603.656, 'min': 800.0, 'max': 3100.0}, {'current': 2603.537, 'min': 800.0, 'max': 3100.0}, {'current': 2000.0, 'min': 800.0, 'max': 3100.0}, {'current': 2527.071, 'min': 800.0, 'max': 3100.0}, {'current': 1054.019, 'min': 800.0, 'max': 3100.0}, {'current': 1093.053, 'min': 800.0, 'max': 3100.0}, {'current': 1198.77, 'min': 800.0, 'max': 3100.0}, {'current': 1377.306, 'min': 800.0, 'max': 3100.0}, {'current': 800.0, 'min': 800.0, 'max': 3100.0}, {'current': 2600.39, 'min': 800.0, 'max': 3100.0}, {'current': 815.518, 'min': 800.0, 'max': 3100.0}, {'current': 2000.0, 'min': 800.0, 'max': 3100.0}, {'current': 1509.84, 'min': 800.0, 'max': 3100.0}, {'current': 1077.315, 'min': 800.0, 'max': 3100.0}, {'current': 1200.0, 'min': 800.0, 'max': 3100.0}, {'current': 2600.0, 'min': 800.0, 'max': 3100.0}, {'current': 1152.452, 'min': 800.0, 'max': 3100.0}, {'current': 2000.0, 'min': 800.0, 'max': 3100.0}, {'current': 2600.0, 'min': 800.0, 'max': 3100.0}, {'current': 1499.432, 'min': 800.0, 'max': 3100.0}, {'current': 2000.0, 'min': 800.0, 'max': 3100.0}, {'current': 1001.328, 'min': 800.0, 'max': 3100.0}, {'current': 1137.967, 'min': 800.0, 'max': 3100.0}, {'current': 799.954, 'min': 800.0, 'max': 3100.0}, {'current': 800.629, 'min': 800.0, 'max': 3100.0}, {'current': 2600.0, 'min': 800.0, 'max': 3100.0}, {'current': 2600.0, 'min': 800.0, 'max': 3100.0}], 'disk': {'total': 25.0, 'used': 6.493473052978516}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 755.295955657959}}
+2023-04-27 15:28:09,556 INFO    HandlerThread:1245 [system_monitor.py:probe():182] Finished collecting system info
+2023-04-27 15:28:09,556 INFO    HandlerThread:1245 [system_monitor.py:probe():185] Publishing system info
+2023-04-27 15:28:09,556 DEBUG   HandlerThread:1245 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-27 15:28:09,556 DEBUG   HandlerThread:1245 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-27 15:28:09,557 DEBUG   HandlerThread:1245 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-04-27 15:28:10,067 DEBUG   HandlerThread:1245 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-27 15:28:10,072 INFO    HandlerThread:1245 [system_monitor.py:probe():187] Finished publishing system info
+2023-04-27 15:28:10,081 DEBUG   SenderThread:1245 [sender.py:send():336] send: files
+2023-04-27 15:28:10,082 INFO    SenderThread:1245 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-04-27 15:28:10,095 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-27 15:28:10,096 DEBUG   SenderThread:1245 [sender.py:send():336] send: telemetry
+2023-04-27 15:28:10,096 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-27 15:28:10,096 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: stop_status
+2023-04-27 15:28:10,261 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_created():275] file/dir created: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/requirements.txt
+2023-04-27 15:28:10,261 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_created():275] file/dir created: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/conda-environment.yaml
+2023-04-27 15:28:10,261 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_created():275] file/dir created: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-metadata.json
+2023-04-27 15:28:10,443 DEBUG   SenderThread:1245 [sender.py:send():336] send: history
+2023-04-27 15:28:10,444 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: summary_record
+2023-04-27 15:28:10,445 INFO    SenderThread:1245 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-27 15:28:11,160 INFO    wandb-upload_0:1245 [upload_job.py:push():138] Uploaded file /tmp/tmp_6mjheeqwandb/ujajyfg0-wandb-metadata.json
+2023-04-27 15:28:11,262 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-summary.json
+2023-04-27 15:28:11,262 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_created():275] file/dir created: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:12,440 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 15:28:13,262 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:15,264 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:17,024 DEBUG   SenderThread:1245 [sender.py:send():336] send: telemetry
+2023-04-27 15:28:17,025 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-27 15:28:17,026 DEBUG   SenderThread:1245 [sender.py:send():336] send: history
+2023-04-27 15:28:17,027 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: summary_record
+2023-04-27 15:28:17,028 INFO    SenderThread:1245 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-27 15:28:17,265 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:17,266 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-summary.json
+2023-04-27 15:28:17,445 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 15:28:19,267 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:21,268 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:22,451 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 15:28:23,269 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:23,819 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-27 15:28:23,821 DEBUG   SenderThread:1245 [sender.py:send():336] send: history
+2023-04-27 15:28:23,822 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: summary_record
+2023-04-27 15:28:23,822 INFO    SenderThread:1245 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-27 15:28:24,270 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-summary.json
+2023-04-27 15:28:25,092 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-27 15:28:25,270 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:27,271 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:27,451 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 15:28:29,272 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:30,094 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-27 15:28:30,608 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-27 15:28:30,610 DEBUG   SenderThread:1245 [sender.py:send():336] send: history
+2023-04-27 15:28:30,611 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: summary_record
+2023-04-27 15:28:30,612 INFO    SenderThread:1245 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-27 15:28:31,273 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:31,274 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-summary.json
+2023-04-27 15:28:32,519 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 15:28:33,275 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:35,095 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-27 15:28:35,276 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:37,279 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:37,546 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 15:28:38,005 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-27 15:28:38,011 DEBUG   SenderThread:1245 [sender.py:send():336] send: history
+2023-04-27 15:28:38,011 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: summary_record
+2023-04-27 15:28:38,011 INFO    SenderThread:1245 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-27 15:28:38,280 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-summary.json
+2023-04-27 15:28:38,281 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/config.yaml
+2023-04-27 15:28:39,281 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:40,096 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-27 15:28:41,282 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:43,067 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 15:28:43,283 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:44,782 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-27 15:28:44,785 DEBUG   SenderThread:1245 [sender.py:send():336] send: history
+2023-04-27 15:28:44,786 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: summary_record
+2023-04-27 15:28:44,788 INFO    SenderThread:1245 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-27 15:28:45,097 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-27 15:28:45,284 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:45,285 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-summary.json
+2023-04-27 15:28:47,286 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:48,098 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 15:28:49,286 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:50,099 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-27 15:28:51,287 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:51,414 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-27 15:28:51,416 DEBUG   SenderThread:1245 [sender.py:send():336] send: history
+2023-04-27 15:28:51,417 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: summary_record
+2023-04-27 15:28:51,420 INFO    SenderThread:1245 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-27 15:28:52,288 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-summary.json
+2023-04-27 15:28:53,109 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 15:28:53,288 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:55,100 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-27 15:28:55,289 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:57,290 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:28:58,007 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-27 15:28:58,009 DEBUG   SenderThread:1245 [sender.py:send():336] send: history
+2023-04-27 15:28:58,009 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: summary_record
+2023-04-27 15:28:58,010 INFO    SenderThread:1245 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-27 15:28:58,138 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 15:28:58,291 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-summary.json
+2023-04-27 15:28:59,292 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:29:00,101 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-27 15:29:01,293 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:29:03,150 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 15:29:03,294 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:29:04,966 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-27 15:29:04,968 DEBUG   SenderThread:1245 [sender.py:send():336] send: history
+2023-04-27 15:29:04,970 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: summary_record
+2023-04-27 15:29:04,974 INFO    SenderThread:1245 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-27 15:29:05,101 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-27 15:29:05,295 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:29:05,295 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-summary.json
+2023-04-27 15:29:07,297 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:29:08,192 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 15:29:09,298 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:29:09,501 DEBUG   SystemMonitor:1245 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-04-27 15:29:09,507 DEBUG   SenderThread:1245 [sender.py:send():336] send: stats
+2023-04-27 15:29:10,103 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-27 15:29:11,299 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:29:11,810 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-27 15:29:11,812 DEBUG   SenderThread:1245 [sender.py:send():336] send: history
+2023-04-27 15:29:11,812 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: summary_record
+2023-04-27 15:29:11,813 INFO    SenderThread:1245 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-27 15:29:11,983 DEBUG   SenderThread:1245 [sender.py:send():336] send: exit
+2023-04-27 15:29:11,983 INFO    SenderThread:1245 [sender.py:send_exit():559] handling exit code: 0
+2023-04-27 15:29:11,984 INFO    SenderThread:1245 [sender.py:send_exit():561] handling runtime: 62
+2023-04-27 15:29:11,984 INFO    SenderThread:1245 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-27 15:29:11,985 INFO    SenderThread:1245 [sender.py:send_exit():567] send defer
+2023-04-27 15:29:11,985 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:11,985 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-27 15:29:11,986 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:11,986 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-04-27 15:29:11,986 INFO    SenderThread:1245 [sender.py:transition_state():587] send defer: 1
+2023-04-27 15:29:11,986 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:11,986 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-27 15:29:11,987 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:11,987 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-04-27 15:29:11,987 INFO    SenderThread:1245 [sender.py:transition_state():587] send defer: 2
+2023-04-27 15:29:11,987 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:11,987 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-27 15:29:11,987 INFO    HandlerThread:1245 [system_monitor.py:finish():161] Stopping system monitor
+2023-04-27 15:29:11,989 DEBUG   SystemMonitor:1245 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-04-27 15:29:11,990 DEBUG   SystemMonitor:1245 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-04-27 15:29:11,994 INFO    HandlerThread:1245 [interfaces.py:finish():175] Joined cpu
+2023-04-27 15:29:11,994 INFO    HandlerThread:1245 [interfaces.py:finish():175] Joined disk
+2023-04-27 15:29:12,005 INFO    HandlerThread:1245 [interfaces.py:finish():175] Joined gpu
+2023-04-27 15:29:12,005 INFO    HandlerThread:1245 [interfaces.py:finish():175] Joined memory
+2023-04-27 15:29:12,005 INFO    HandlerThread:1245 [interfaces.py:finish():175] Joined network
+2023-04-27 15:29:12,006 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:12,007 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-04-27 15:29:12,007 INFO    SenderThread:1245 [sender.py:transition_state():587] send defer: 3
+2023-04-27 15:29:12,007 DEBUG   SenderThread:1245 [sender.py:send():336] send: stats
+2023-04-27 15:29:12,009 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:12,009 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-27 15:29:12,010 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:12,010 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-04-27 15:29:12,010 INFO    SenderThread:1245 [sender.py:transition_state():587] send defer: 4
+2023-04-27 15:29:12,010 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:12,011 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-27 15:29:12,011 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:12,011 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-04-27 15:29:12,011 INFO    SenderThread:1245 [sender.py:transition_state():587] send defer: 5
+2023-04-27 15:29:12,012 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:12,012 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-27 15:29:12,012 DEBUG   SenderThread:1245 [sender.py:send():336] send: summary
+2023-04-27 15:29:12,013 INFO    SenderThread:1245 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-27 15:29:12,014 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:12,014 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-04-27 15:29:12,014 INFO    SenderThread:1245 [sender.py:transition_state():587] send defer: 6
+2023-04-27 15:29:12,014 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:12,015 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-27 15:29:12,015 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:12,015 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-04-27 15:29:12,015 INFO    SenderThread:1245 [sender.py:transition_state():587] send defer: 7
+2023-04-27 15:29:12,015 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 15:29:12,015 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:12,016 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-27 15:29:12,016 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:12,016 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-04-27 15:29:12,300 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-summary.json
+2023-04-27 15:29:12,841 INFO    SenderThread:1245 [sender.py:transition_state():587] send defer: 8
+2023-04-27 15:29:12,841 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:12,842 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-27 15:29:12,842 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:12,842 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-04-27 15:29:12,842 INFO    SenderThread:1245 [sender.py:transition_state():587] send defer: 9
+2023-04-27 15:29:12,843 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:12,843 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-27 15:29:12,843 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:12,843 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-04-27 15:29:12,843 INFO    SenderThread:1245 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-04-27 15:29:12,983 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-27 15:29:13,300 INFO    Thread-13 :1245 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:29:13,302 INFO    SenderThread:1245 [dir_watcher.py:finish():392] scan: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files
+2023-04-27 15:29:13,302 INFO    SenderThread:1245 [dir_watcher.py:finish():406] scan save: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/config.yaml config.yaml
+2023-04-27 15:29:13,302 INFO    SenderThread:1245 [dir_watcher.py:finish():406] scan save: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-summary.json wandb-summary.json
+2023-04-27 15:29:13,303 INFO    SenderThread:1245 [dir_watcher.py:finish():406] scan save: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/requirements.txt requirements.txt
+2023-04-27 15:29:13,312 INFO    SenderThread:1245 [dir_watcher.py:finish():406] scan save: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/conda-environment.yaml conda-environment.yaml
+2023-04-27 15:29:13,331 INFO    SenderThread:1245 [dir_watcher.py:finish():406] scan save: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-metadata.json wandb-metadata.json
+2023-04-27 15:29:13,331 INFO    SenderThread:1245 [dir_watcher.py:finish():406] scan save: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log output.log
+2023-04-27 15:29:13,332 INFO    SenderThread:1245 [sender.py:transition_state():587] send defer: 10
+2023-04-27 15:29:13,333 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: poll_exit
+2023-04-27 15:29:13,333 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:13,339 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-27 15:29:13,345 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:13,345 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-04-27 15:29:13,345 INFO    SenderThread:1245 [file_pusher.py:finish():162] shutting down file pusher
+2023-04-27 15:29:13,984 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-27 15:29:13,986 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: poll_exit
+2023-04-27 15:29:14,127 INFO    wandb-upload_0:1245 [upload_job.py:push():138] Uploaded file /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/config.yaml
+2023-04-27 15:29:14,282 INFO    wandb-upload_3:1245 [upload_job.py:push():138] Uploaded file /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/output.log
+2023-04-27 15:29:14,360 INFO    wandb-upload_1:1245 [upload_job.py:push():138] Uploaded file /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/wandb-summary.json
+2023-04-27 15:29:14,564 INFO    wandb-upload_2:1245 [upload_job.py:push():138] Uploaded file /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/files/requirements.txt
+2023-04-27 15:29:14,765 INFO    Thread-12 :1245 [sender.py:transition_state():587] send defer: 11
+2023-04-27 15:29:14,766 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:14,766 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-27 15:29:14,767 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:14,767 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-04-27 15:29:14,767 INFO    SenderThread:1245 [file_pusher.py:join():167] waiting for file pusher
+2023-04-27 15:29:14,767 INFO    SenderThread:1245 [sender.py:transition_state():587] send defer: 12
+2023-04-27 15:29:14,768 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:14,768 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-27 15:29:14,768 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:14,768 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-04-27 15:29:14,987 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-27 15:29:16,064 INFO    SenderThread:1245 [sender.py:transition_state():587] send defer: 13
+2023-04-27 15:29:16,065 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: poll_exit
+2023-04-27 15:29:16,065 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:16,066 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-27 15:29:16,067 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:16,067 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-04-27 15:29:16,067 INFO    SenderThread:1245 [sender.py:transition_state():587] send defer: 14
+2023-04-27 15:29:16,067 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 15:29:16,071 INFO    HandlerThread:1245 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-27 15:29:16,071 DEBUG   SenderThread:1245 [sender.py:send():336] send: final
+2023-04-27 15:29:16,072 DEBUG   SenderThread:1245 [sender.py:send():336] send: footer
+2023-04-27 15:29:16,073 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: defer
+2023-04-27 15:29:16,073 INFO    SenderThread:1245 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-04-27 15:29:16,075 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-27 15:29:16,076 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: poll_exit
+2023-04-27 15:29:16,077 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: server_info
+2023-04-27 15:29:16,078 DEBUG   SenderThread:1245 [sender.py:send_request():363] send_request: server_info
+2023-04-27 15:29:16,084 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-27 15:29:16,085 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-27 15:29:16,752 INFO    MainThread:1245 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-04-27 15:29:16,753 INFO    MainThread:1245 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-04-27 15:29:16,753 INFO    MainThread:1245 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-04-27 15:29:16,754 DEBUG   HandlerThread:1245 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-27 15:29:16,755 INFO    HandlerThread:1245 [handler.py:finish():841] shutting down handler
+2023-04-27 15:29:17,078 INFO    WriterThread:1245 [datastore.py:close():299] close: /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_152807-kr1s5e6v/run-kr1s5e6v.wandb
+2023-04-27 15:29:17,752 INFO    SenderThread:1245 [sender.py:finish():1493] shutting down sender
+2023-04-27 15:29:17,752 INFO    SenderThread:1245 [file_pusher.py:finish():162] shutting down file pusher
+2023-04-27 15:29:17,752 INFO    SenderThread:1245 [file_pusher.py:join():167] waiting for file pusher

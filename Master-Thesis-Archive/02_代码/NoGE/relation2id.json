@@ -1,0 +1,14 @@
+{
+    "belongTo": 0,
+    "evolveTo": 1,
+    "exploit": 2,
+    "foundBy": 3,
+    "has": 4,
+    "hasAlias": 5,
+    "hasAttackTime": 6,
+    "hasType": 7,
+    "indicate": 8,
+    "subClassOf": 9,
+    "target": 10,
+    "use": 11
+}

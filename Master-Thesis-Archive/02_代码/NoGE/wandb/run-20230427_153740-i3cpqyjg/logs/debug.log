@@ -1,0 +1,100 @@
+2023-04-27 15:37:40,178 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Configure stats pid to 1599
+2023-04-27 15:37:40,179 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-04-27 15:37:40,179 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/autodl-tmp/KLEC/GNN-NoGE/wandb/settings
+2023-04-27 15:37:40,179 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'entity': 'jenfungf', 'project': 'NoGE', 'sweep_id': 'jk7s0iaw', 'root_dir': '/root/autodl-tmp/KLEC/GNN-NoGE', 'run_id': 'i3cpqyjg', 'sweep_param_path': '/root/autodl-tmp/KLEC/GNN-NoGE/wandb/sweep-jk7s0iaw/config-i3cpqyjg.yaml'}
+2023-04-27 15:37:40,179 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'main_NoGE.py', 'program': 'main_NoGE.py'}
+2023-04-27 15:37:40,179 INFO    MainThread:1599 [wandb_init.py:_log_setup():492] Logging user logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153740-i3cpqyjg/logs/debug.log
+2023-04-27 15:37:40,179 INFO    MainThread:1599 [wandb_init.py:_log_setup():493] Logging internal logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153740-i3cpqyjg/logs/debug-internal.log
+2023-04-27 15:37:40,179 INFO    MainThread:1599 [wandb_init.py:init():532] calling init triggers
+2023-04-27 15:37:40,179 INFO    MainThread:1599 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 1024, 'dataset': 'type_aptnotes', 'eval_after': 2000, 'lr': 0.001, 'num_iterations': 3000, 'semantic_type': 'None'}
+config: {}
+2023-04-27 15:37:40,179 INFO    MainThread:1599 [wandb_init.py:init():583] wandb.init() called when a run is still active
+2023-04-27 15:37:45,114 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Configure stats pid to 1599
+2023-04-27 15:37:45,114 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-04-27 15:37:45,114 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/autodl-tmp/KLEC/GNN-NoGE/wandb/settings
+2023-04-27 15:37:45,114 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'entity': 'jenfungf', 'project': 'NoGE', 'sweep_id': 'jk7s0iaw', 'root_dir': '/root/autodl-tmp/KLEC/GNN-NoGE', 'run_id': 'i3cpqyjg', 'sweep_param_path': '/root/autodl-tmp/KLEC/GNN-NoGE/wandb/sweep-jk7s0iaw/config-i3cpqyjg.yaml'}
+2023-04-27 15:37:45,114 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'main_NoGE.py', 'program': 'main_NoGE.py'}
+2023-04-27 15:37:45,115 INFO    MainThread:1599 [wandb_init.py:_log_setup():492] Logging user logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153745-i3cpqyjg/logs/debug.log
+2023-04-27 15:37:45,115 INFO    MainThread:1599 [wandb_init.py:_log_setup():493] Logging internal logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153745-i3cpqyjg/logs/debug-internal.log
+2023-04-27 15:37:45,115 INFO    MainThread:1599 [wandb_init.py:init():532] calling init triggers
+2023-04-27 15:37:45,115 INFO    MainThread:1599 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 1024, 'dataset': 'type_aptnotes', 'eval_after': 2000, 'lr': 0.001, 'num_iterations': 3000, 'semantic_type': 'None'}
+config: {}
+2023-04-27 15:37:45,115 INFO    MainThread:1599 [wandb_init.py:init():583] wandb.init() called when a run is still active
+2023-04-27 15:37:49,927 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Configure stats pid to 1599
+2023-04-27 15:37:49,927 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-04-27 15:37:49,927 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/autodl-tmp/KLEC/GNN-NoGE/wandb/settings
+2023-04-27 15:37:49,927 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'entity': 'jenfungf', 'project': 'NoGE', 'sweep_id': 'jk7s0iaw', 'root_dir': '/root/autodl-tmp/KLEC/GNN-NoGE', 'run_id': 'i3cpqyjg', 'sweep_param_path': '/root/autodl-tmp/KLEC/GNN-NoGE/wandb/sweep-jk7s0iaw/config-i3cpqyjg.yaml'}
+2023-04-27 15:37:49,927 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'main_NoGE.py', 'program': 'main_NoGE.py'}
+2023-04-27 15:37:49,928 INFO    MainThread:1599 [wandb_init.py:_log_setup():492] Logging user logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153749-i3cpqyjg/logs/debug.log
+2023-04-27 15:37:49,928 INFO    MainThread:1599 [wandb_init.py:_log_setup():493] Logging internal logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153749-i3cpqyjg/logs/debug-internal.log
+2023-04-27 15:37:49,928 INFO    MainThread:1599 [wandb_init.py:init():532] calling init triggers
+2023-04-27 15:37:49,928 INFO    MainThread:1599 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 1024, 'dataset': 'type_aptnotes', 'eval_after': 2000, 'lr': 0.001, 'num_iterations': 3000, 'semantic_type': 'None'}
+config: {}
+2023-04-27 15:37:49,928 INFO    MainThread:1599 [wandb_init.py:init():583] wandb.init() called when a run is still active
+2023-04-27 15:37:54,576 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Configure stats pid to 1599
+2023-04-27 15:37:54,576 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-04-27 15:37:54,576 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/autodl-tmp/KLEC/GNN-NoGE/wandb/settings
+2023-04-27 15:37:54,576 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'entity': 'jenfungf', 'project': 'NoGE', 'sweep_id': 'jk7s0iaw', 'root_dir': '/root/autodl-tmp/KLEC/GNN-NoGE', 'run_id': 'i3cpqyjg', 'sweep_param_path': '/root/autodl-tmp/KLEC/GNN-NoGE/wandb/sweep-jk7s0iaw/config-i3cpqyjg.yaml'}
+2023-04-27 15:37:54,576 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'main_NoGE.py', 'program': 'main_NoGE.py'}
+2023-04-27 15:37:54,577 INFO    MainThread:1599 [wandb_init.py:_log_setup():492] Logging user logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153754-i3cpqyjg/logs/debug.log
+2023-04-27 15:37:54,577 INFO    MainThread:1599 [wandb_init.py:_log_setup():493] Logging internal logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153754-i3cpqyjg/logs/debug-internal.log
+2023-04-27 15:37:54,577 INFO    MainThread:1599 [wandb_init.py:init():532] calling init triggers
+2023-04-27 15:37:54,577 INFO    MainThread:1599 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 1024, 'dataset': 'type_aptnotes', 'eval_after': 2000, 'lr': 0.001, 'num_iterations': 3000, 'semantic_type': 'None'}
+config: {}
+2023-04-27 15:37:54,577 INFO    MainThread:1599 [wandb_init.py:init():583] wandb.init() called when a run is still active
+2023-04-27 15:37:59,390 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Configure stats pid to 1599
+2023-04-27 15:37:59,391 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-04-27 15:37:59,391 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/autodl-tmp/KLEC/GNN-NoGE/wandb/settings
+2023-04-27 15:37:59,391 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'entity': 'jenfungf', 'project': 'NoGE', 'sweep_id': 'jk7s0iaw', 'root_dir': '/root/autodl-tmp/KLEC/GNN-NoGE', 'run_id': 'i3cpqyjg', 'sweep_param_path': '/root/autodl-tmp/KLEC/GNN-NoGE/wandb/sweep-jk7s0iaw/config-i3cpqyjg.yaml'}
+2023-04-27 15:37:59,391 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'main_NoGE.py', 'program': 'main_NoGE.py'}
+2023-04-27 15:37:59,391 INFO    MainThread:1599 [wandb_init.py:_log_setup():492] Logging user logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153759-i3cpqyjg/logs/debug.log
+2023-04-27 15:37:59,391 INFO    MainThread:1599 [wandb_init.py:_log_setup():493] Logging internal logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153759-i3cpqyjg/logs/debug-internal.log
+2023-04-27 15:37:59,391 INFO    MainThread:1599 [wandb_init.py:init():532] calling init triggers
+2023-04-27 15:37:59,392 INFO    MainThread:1599 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 1024, 'dataset': 'type_aptnotes', 'eval_after': 2000, 'lr': 0.001, 'num_iterations': 3000, 'semantic_type': 'None'}
+config: {}
+2023-04-27 15:37:59,392 INFO    MainThread:1599 [wandb_init.py:init():583] wandb.init() called when a run is still active
+2023-04-27 15:38:04,329 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Configure stats pid to 1599
+2023-04-27 15:38:04,329 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-04-27 15:38:04,330 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/autodl-tmp/KLEC/GNN-NoGE/wandb/settings
+2023-04-27 15:38:04,330 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'entity': 'jenfungf', 'project': 'NoGE', 'sweep_id': 'jk7s0iaw', 'root_dir': '/root/autodl-tmp/KLEC/GNN-NoGE', 'run_id': 'i3cpqyjg', 'sweep_param_path': '/root/autodl-tmp/KLEC/GNN-NoGE/wandb/sweep-jk7s0iaw/config-i3cpqyjg.yaml'}
+2023-04-27 15:38:04,330 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'main_NoGE.py', 'program': 'main_NoGE.py'}
+2023-04-27 15:38:04,330 INFO    MainThread:1599 [wandb_init.py:_log_setup():492] Logging user logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153804-i3cpqyjg/logs/debug.log
+2023-04-27 15:38:04,330 INFO    MainThread:1599 [wandb_init.py:_log_setup():493] Logging internal logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153804-i3cpqyjg/logs/debug-internal.log
+2023-04-27 15:38:04,330 INFO    MainThread:1599 [wandb_init.py:init():532] calling init triggers
+2023-04-27 15:38:04,330 INFO    MainThread:1599 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 1024, 'dataset': 'type_aptnotes', 'eval_after': 2000, 'lr': 0.001, 'num_iterations': 3000, 'semantic_type': 'None'}
+config: {}
+2023-04-27 15:38:04,330 INFO    MainThread:1599 [wandb_init.py:init():583] wandb.init() called when a run is still active
+2023-04-27 15:38:09,122 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Configure stats pid to 1599
+2023-04-27 15:38:09,122 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-04-27 15:38:09,122 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/autodl-tmp/KLEC/GNN-NoGE/wandb/settings
+2023-04-27 15:38:09,123 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'entity': 'jenfungf', 'project': 'NoGE', 'sweep_id': 'jk7s0iaw', 'root_dir': '/root/autodl-tmp/KLEC/GNN-NoGE', 'run_id': 'i3cpqyjg', 'sweep_param_path': '/root/autodl-tmp/KLEC/GNN-NoGE/wandb/sweep-jk7s0iaw/config-i3cpqyjg.yaml'}
+2023-04-27 15:38:09,123 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'main_NoGE.py', 'program': 'main_NoGE.py'}
+2023-04-27 15:38:09,123 INFO    MainThread:1599 [wandb_init.py:_log_setup():492] Logging user logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153809-i3cpqyjg/logs/debug.log
+2023-04-27 15:38:09,123 INFO    MainThread:1599 [wandb_init.py:_log_setup():493] Logging internal logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153809-i3cpqyjg/logs/debug-internal.log
+2023-04-27 15:38:09,123 INFO    MainThread:1599 [wandb_init.py:init():532] calling init triggers
+2023-04-27 15:38:09,123 INFO    MainThread:1599 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 1024, 'dataset': 'type_aptnotes', 'eval_after': 2000, 'lr': 0.001, 'num_iterations': 3000, 'semantic_type': 'None'}
+config: {}
+2023-04-27 15:38:09,124 INFO    MainThread:1599 [wandb_init.py:init():583] wandb.init() called when a run is still active
+2023-04-27 15:38:13,742 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Configure stats pid to 1599
+2023-04-27 15:38:13,742 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-04-27 15:38:13,742 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/autodl-tmp/KLEC/GNN-NoGE/wandb/settings
+2023-04-27 15:38:13,742 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'entity': 'jenfungf', 'project': 'NoGE', 'sweep_id': 'jk7s0iaw', 'root_dir': '/root/autodl-tmp/KLEC/GNN-NoGE', 'run_id': 'i3cpqyjg', 'sweep_param_path': '/root/autodl-tmp/KLEC/GNN-NoGE/wandb/sweep-jk7s0iaw/config-i3cpqyjg.yaml'}
+2023-04-27 15:38:13,742 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'main_NoGE.py', 'program': 'main_NoGE.py'}
+2023-04-27 15:38:13,743 INFO    MainThread:1599 [wandb_init.py:_log_setup():492] Logging user logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153813-i3cpqyjg/logs/debug.log
+2023-04-27 15:38:13,743 INFO    MainThread:1599 [wandb_init.py:_log_setup():493] Logging internal logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153813-i3cpqyjg/logs/debug-internal.log
+2023-04-27 15:38:13,743 INFO    MainThread:1599 [wandb_init.py:init():532] calling init triggers
+2023-04-27 15:38:13,743 INFO    MainThread:1599 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 1024, 'dataset': 'type_aptnotes', 'eval_after': 2000, 'lr': 0.001, 'num_iterations': 3000, 'semantic_type': 'None'}
+config: {}
+2023-04-27 15:38:13,743 INFO    MainThread:1599 [wandb_init.py:init():583] wandb.init() called when a run is still active
+2023-04-27 15:38:18,425 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Configure stats pid to 1599
+2023-04-27 15:38:18,425 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-04-27 15:38:18,425 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from /root/autodl-tmp/KLEC/GNN-NoGE/wandb/settings
+2023-04-27 15:38:18,425 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'entity': 'jenfungf', 'project': 'NoGE', 'sweep_id': 'jk7s0iaw', 'root_dir': '/root/autodl-tmp/KLEC/GNN-NoGE', 'run_id': 'i3cpqyjg', 'sweep_param_path': '/root/autodl-tmp/KLEC/GNN-NoGE/wandb/sweep-jk7s0iaw/config-i3cpqyjg.yaml'}
+2023-04-27 15:38:18,425 INFO    MainThread:1599 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'main_NoGE.py', 'program': 'main_NoGE.py'}
+2023-04-27 15:38:18,426 INFO    MainThread:1599 [wandb_init.py:_log_setup():492] Logging user logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153818-i3cpqyjg/logs/debug.log
+2023-04-27 15:38:18,426 INFO    MainThread:1599 [wandb_init.py:_log_setup():493] Logging internal logs to /root/autodl-tmp/KLEC/GNN-NoGE/wandb/run-20230427_153818-i3cpqyjg/logs/debug-internal.log
+2023-04-27 15:38:18,426 INFO    MainThread:1599 [wandb_init.py:init():532] calling init triggers
+2023-04-27 15:38:18,426 INFO    MainThread:1599 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 1024, 'dataset': 'type_aptnotes', 'eval_after': 2000, 'lr': 0.001, 'num_iterations': 3000, 'semantic_type': 'None'}
+config: {}
+2023-04-27 15:38:18,426 INFO    MainThread:1599 [wandb_init.py:init():583] wandb.init() called when a run is still active
+2023-04-27 15:38:24,220 WARNING MsgRouterThr:1599 [router.py:message_loop():77] message_loop has been closed
